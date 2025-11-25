@@ -1,0 +1,120 @@
+/* Importa a fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #F5F5F5; /* CINZA CLARO (mantido conforme você pediu) */
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    padding: 1rem;
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Tipografias */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    margin: 1.5rem auto;
+    max-width: 800px;
+}
+
+/* Destaques */
+span {
+    font-weight: 600;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.autor-foto {
+    max-width: 190px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+/* Divisor simples */
+.section-divider {
+    height: 1px;
+    background-color: #d9d9d9;
+    margin: 3rem auto;
+    width: 70%;
+}
+
+/* Botões */
+a {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 1rem;
+    background-color: #49B970;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    opacity: .9;
+    transform: scale(1.02);
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-bottom: 2rem;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.4rem; }
+    h3 { font-size: 1.2rem; }
+
+    .section-divider {
+        margin: 2rem auto;
+        width: 80%;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+}
